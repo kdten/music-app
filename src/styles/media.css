@@ -1,0 +1,26 @@
+@media only screen and (max-width: 425px) {
+  button {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+  html,
+  body {
+    height: auto;
+    width: 100%;
+    overflow: auto;
+    overflow-x: auto;
+  }
+
+  button {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+  }
+
+  button svg {
+    font-size: 22px;
+    color: #fff;
+  }
+
+}

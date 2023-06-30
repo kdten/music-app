@@ -1,0 +1,132 @@
+:root {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15.5px;
+
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #ffffff;
+  background-color: #121212;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --main-color: #181818;
+  --sec-color: #2693d7;
+  --vp-header: 68px;
+  --vp-playbar-mobile: 80px;
+}
+
+input:is([type="button"], [type="submit"], [type="reset"]), input[type="file"]::file-selector-button, button { 
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;
+}
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+img {
+  pointer-events: none;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a,
+button {
+  outline: 0px solid rgba(255, 255, 255, 0.167)!important;
+  transition: 0.3s background, outline 0.1s ease;
+}
+
+a:focus,
+button:focus {
+  overflow: visible;
+  outline: 2px solid rgba(255, 255, 255, 0.167)!important;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  animation: appear 0.4s ease-in-out both;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  margin-left: 6px;
+  margin-right: 6px;
+  min-height: 30px;
+
+  font-size: 0rem;
+
+  color: #000;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.content_wrapper {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.conent {
+  padding: 10px 0;
+}
+
+button svg {
+  font-size: 19px;
+  color: #fff;
+}
+
+button.active_btn svg {
+  color: var(--sec-color);
+}
