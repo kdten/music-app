@@ -1,4 +1,5 @@
-# Gentlemen's Barbershop
+# music-app
+
 A beautiful vite built music player.
 
 **Link to project:** https://koltenedward.com/musicapp/index.html
