@@ -2,7 +2,7 @@
   "name": "music-app",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://gerwld.github.io/music-app/",
+  "homepage": "",
   "type": "module",
   "scripts": {
     "dev": "vite",
