@@ -8,6 +8,7 @@ A beautiful React music player.
 
 ## Run it yourself
 $ pnpm i
+
 $ pnpm run dev
 
 ## How It's Made
