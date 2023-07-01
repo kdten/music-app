@@ -13,7 +13,8 @@ $ pnpm run dev
 
 ## How It's Made
 
-**Tech used** Vite, React, Redux, Redux-Thunk, Axios
+**Tech used**
+React, Redux, Redux-Thunk, Axios
 
 
 
