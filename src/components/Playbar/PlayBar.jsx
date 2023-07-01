@@ -6,7 +6,7 @@ import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
 import { IoShuffleOutline, IoRepeat } from "react-icons/io5";
 import { HiPlayCircle, HiPauseCircle, HiBackward, HiForward } from "react-icons/hi2";
 
-import { withPlaybar } from "hoc/withPlaybar";
+import { withPlaybar } from "hoc/withPlayBar";
 import withLikes from "hoc/withLikes";
 import { compose } from "redux";
 import { ProgressRange, FullCover, VolumeIcon, Btn } from "@/components/";
