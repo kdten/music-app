@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "homepage": "",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "start": "node server.js",
     "dev": "vite",
