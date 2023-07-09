@@ -2,7 +2,7 @@
 
 A beautiful React music player.
 
-**Link to project:** https://koltenedward.com/musicapp/index.html
+**Link to project:** https://koltenedward.com/music-app/index.html
 
 ![](images/preview.gif)
 
